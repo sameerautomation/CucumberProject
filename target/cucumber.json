@@ -1,0 +1,221 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-06T16:38:35.224Z",
+        "line": 13,
+        "name": "validate login with valid credentials",
+        "description": "",
+        "id": "login;validate-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1993000,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "i am at signin page",
+            "match": {
+              "location": "Stepdefinitions.LoginSteps.i_am_at_signin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "i entered username as \"ramu@mailinator.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ramu@mailinator.com\"",
+                  "offset": 22
+                }
+              ],
+              "location": "Stepdefinitions.LoginSteps.i_entered_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "i entered password as \"abc@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc@1234\"",
+                  "offset": 22
+                }
+              ],
+              "location": "Stepdefinitions.LoginSteps.i_entered_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "i click on sigin button",
+            "match": {
+              "location": "Stepdefinitions.LoginSteps.i_click_on_sigin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "page title should be \"My account - My Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My account - My Store\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Stepdefinitions.LoginSteps.page_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-06T16:38:35.322Z",
+        "line": 14,
+        "name": "validate login with valid credentials",
+        "description": "",
+        "id": "login;validate-login-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "i am at signin page",
+            "match": {
+              "location": "Stepdefinitions.LoginSteps.i_am_at_signin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "i entered username as \"ram@milinator.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ram@milinator.com\"",
+                  "offset": 22
+                }
+              ],
+              "location": "Stepdefinitions.LoginSteps.i_entered_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "i entered password as \"abc@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc@1234\"",
+                  "offset": 22
+                }
+              ],
+              "location": "Stepdefinitions.LoginSteps.i_entered_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "i click on sigin button",
+            "match": {
+              "location": "Stepdefinitions.LoginSteps.i_click_on_sigin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "page title should be \"Login - My Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login - My Store\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Stepdefinitions.LoginSteps.page_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-06T16:38:35.328Z",
+        "line": 17,
+        "name": "validate the sigin page title",
+        "description": "",
+        "id": "login;validate-the-sigin-page-title",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "i am at signin page",
+            "match": {
+              "location": "Stepdefinitions.LoginSteps.i_am_at_signin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "page title should be \"Login - My Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login - My Store\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Stepdefinitions.LoginSteps.page_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]
